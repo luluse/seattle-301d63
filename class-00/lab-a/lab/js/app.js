@@ -35,8 +35,9 @@ function displayPics(){
       viewed.push(rando);
     }
   }
-  console.log(rando);
+  // console.log(rando);
   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `var to `let`.
+  // console.log(rando); threw an error because it is outside of the code block where let rando is declared. Line 38 couldn't access the rando variable because a let variable only lives inside the code block scope.
   // PUT YOUR RESPONSE IN THIS COMMENT
   console.log(viewed);
 
